@@ -1,0 +1,112 @@
+.section__right {
+    // border: 3px solid red;
+    margin-right: 90px;
+    width: 100%;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+
+    &--backbag {
+        display: flex;
+
+        & img {
+            width: 96px;
+            height: 111px;
+            margin: 20px;
+            border-radius: 5px;
+        }
+
+        &-right {
+            p span:first-child {
+                color: #F2994A;
+                font-weight: 600;
+                font-size: 16px;
+            }
+
+            p span:last-child {
+                text-decoration: line-through;
+                font-weight: 400;
+                font-size: 12px;
+            }
+
+
+            &-counter {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                border: 1px solid black;
+                border-radius: 5px;
+
+                & button {
+                    width: 30px;
+                    height: 30px;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+
+
+    &--shoe {
+        display: flex;
+
+        & img {
+            width: 96px;
+            height: 111px;
+            margin: 20px;
+            border-radius: 5px;
+        }
+
+        &-right {
+            p span:first-child {
+                color: #F2994A;
+                font-weight: 600;
+                font-size: 16px;
+            }
+
+            p span:last-child {
+                text-decoration: line-through;
+                font-weight: 400;
+                font-size: 12px;
+            }
+
+
+
+            &-counter {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                border: 1px solid black;
+                border-radius: 5px;
+
+                & button {
+                    width: 30px;
+                    height: 30px;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                }
+            }
+
+        }
+
+
+    }
+
+    &--shipping {
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid black;
+        margin: 60px 50px 5px 20px;
+    }
+
+    &--total {
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid black;
+        margin: 10px 50px 5px 20px;
+    }
+
+
+}

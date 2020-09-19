@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Checkout</h1>
+    </header>
+    <main class="container">
+        <section class="section__left">
+            <div class="section__left--contactinfo">
+                <p>Contact information</p>
+                <div class="section__left--contactinfo-email">
+                    <label for="email">Email</label>
+                    <div class="section__left--contactinfo-email_1 leftdiv">
+                        <i class="fas fa-envelope" id="ic"></i>
+                        <input type="email" name="email" placeholder="Enter your email..." class="input" required>
+                    </div>
+                </div>
+                <div class="section__left--contactinfo-phone">
+                    <label for="phone">Phone</label>
+                    <div class="section__left--contactinfo-phone_1 leftdiv">
+                        <i class="fas fa-phone-square-alt"></i>
+                        <input type="tel" name="phone" id="phone" placeholder="Enter your phone..." required
+                            class="input">
+                    </div>
+                </div>
+            </div>
+            <div class="section__left--shipping">
+                <h3>Shipping address</h3>
+                <div class="section__left--shipping-name">
+                    <label for="fullname">Full Name</label>
+                    <div class="section__left--shipping-name-1 leftdiv">
+                        <i class="fas fa-user "></i>
+                        <input type="text" name="fullname" id="fullname" placeholder="Enter Your Full name..." required
+                            class="input">
+                    </div>
+                </div>
+                <div class="section__left--shipping-adress">
+                    <label for="adress">Adress</label>
+                    <div class="section__left--shipping-adress-1 leftdiv">
+                        <i class="fas fa-home"></i>
+                        <input type="text" name="adress" id="adress" placeholder="Enter Your Adress" required
+                            class="input">
+                    </div>
+                </div>
+                <div class="section__left--shipping-city">
+                    <label for="city">City</label>
+                    <div class="section__left--shipping-city-1 leftdiv">
+                        <i class="fas fa-city"></i>
+                        <input type="text" name="city" id="city" placeholder="Enter your city..." required
+                            class="input">
+                    </div>
+                </div>
+                <div class="section__left--shipping-countrypostcode">
+                    <div class="section__left--shipping-countrypostcode-country">
+                        <label for="country">Country</label>
+                        <div class="section__left--shipping-countrypostcode-country-1 leftdiv">
+                            <i class="fas fa-globe-europe"></i>
+                            <select id="country" name="country">
+                                <option value="Turkey">Turkey</option>
+                                <option value="German">German</option>
+                                <option value="England">England</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="section__left--shipping-countrypostcode-postcode">
+                        <label for="postcode">Post Code</label>
+                        <div class="section__left--shipping-countrypostcode-postcode-1 leftdiv">
+                            <i class="fas fa-mail-bulk"></i>
+                            <input type="text" name="postcode" id="postcode" required>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="section__left--shipping-checkbox">
+                    <input type="checkbox" name="info" id="info">
+                    <label for="info"> See this information next time</label>
+                </div>
+                <button type="submit" value="Continue" id="button">Continue</button>
+            </div>
+        </section>
+        <section class="section__right">
+            <div class="section__right--backbag">
+                <img src="./images/photo1.png" alt="Backbag">
+                <div class="section__right--backbag-right">
+                    <p>Vintage Backbag</p>
+                    <p><span>$54.99</span> <span>$94.99</span></p>
+                    <div class="section__right--backbag-right-counter">
+                        <button>-</button>
+                        <p>1</p>
+                        <button>+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section__right--shoe">
+                <img src="./images/photo2.png" alt="Levis Shoes">
+                <div class="section__right--shoe-right">
+                    <p>Levis Shoes</p>
+                    <p> <span>$74.99</span> <span>$124.99</span></p>
+                    <div class="section__right--shoe-right-counter">
+                        <button>-</button>
+                        <p>1</p>
+                        <button>+</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="section__right--shipping">
+                <p>Shipping</p>
+                <p>$19</p>
+            </div>
+            <div class="section__right--total">
+                <p>Total</p>
+                <p>$148.99</p>
+            </div>
+
+        </section>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+.section__left{
+    // border: 3px solid red;
+    margin-left: 160px;
+    margin-right: 40px;
+    width: 100%;
+    &--contactinfo{
+
+        margin-bottom: 50px ;
+        & p{
+            font-weight: 700;
+            font-size: 18;
+        }
+        &-email label{
+            font-weight: 400;
+            font-size: 12px;
+            color: #C0C0C0;
+            margin-bottom: 10px;
+        }
+
+        &-email_1{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            color: #828282;
+            border: 3px solid black;
+            width: 100%;
+            height: 30px;
+            border-radius: 5px;
+            & i{
+                padding-left: 10px;
+            }
+            & .input{
+                // width: 400px;
+                // height: 10px;
+                border: none;
+                width: 90%;
+                height: 90%;
+                // padding: 5px;
+                outline: none;
+            }
+        }
+
+    }
+    
+    
+    
+    
+
+}
+
+
+.input{
+    
+                border: none;
+                width: 90%;
+                height: 90%;
+                // padding: 5px;
+                outline: none;
+}
+
+.leftdiv{
+    margin-top: 10px;
+            margin-bottom: 10px;
+        
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            color: #828282;
+            border: 1px solid black;
+            width: 100%;
+            height: 40px;
+            border-radius: 5px;
+}
+
+
+.fas{
+    padding-left: 10px;
+}
+
+.section__left--shipping-countrypostcode{
+    display: flex;
+}
+
+#country, #postcode{
+    height: 90%;
+    border: none;
+}
+
+.section__left--shipping-countrypostcode-postcode{
+    margin-left: 30px;
+}
+
+.section__left--shipping-checkbox{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#button{
+    
+        float: right;
+        width: 75px;
+        height: 40px;
+        color: white;
+        background-color: rgb(242,153,74);
+        border: none;
+        border-radius: 10px;
+
+}
